@@ -1,0 +1,18 @@
+A file named credentials.tf will need to be created that has the appropriate
+provider credentials, for example:
+
+variable "bluemix_api_key" {
+   default = "blah"
+}
+
+variable "softlayer_username" {
+   default = "blah"
+}
+
+variable "softlayer_api_key" {
+   default = "blah"
+}
+
+variable "ssh_key" {
+   default = "blah"
+}
